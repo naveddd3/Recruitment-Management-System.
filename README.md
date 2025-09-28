@@ -20,7 +20,7 @@ A backend server for a Recruitment Management System built with **.NET Core**, *
 ---
 
 ## Tech Stack
-- **Language & Framework:** C#, .NET 7 (or latest version)
+- **Language & Framework:** C#, .NET 8
 - **Database:** SQL Server (EF Core)
 - **Authentication:** JWT-based authentication
 - **Architecture:** Clean Architecture with Repository Pattern
