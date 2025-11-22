@@ -25,7 +25,7 @@ namespace RMS.Application.Services
 
         public async Task<Job?> CreateJobAsync(Job job)
         {
-            return await _jobRepository.AddAsync(job);
+            return await _jobRepository.AddAsync(job); 
         }
 
         public async Task<Job?> UpdateJobAsync(Job job)
