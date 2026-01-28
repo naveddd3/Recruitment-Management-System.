@@ -1,9 +1,9 @@
-name: Build and deploy ASP.Net Core app to Azure Web App
+name: Build and deploy ASP.NET Core app to Azure Web App - recruitmentms
 
 on:
   push:
     branches:
-      - main
+      - master   # agar tumhara branch master hai
   workflow_dispatch:
 
 env:
@@ -12,7 +12,7 @@ env:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout code
