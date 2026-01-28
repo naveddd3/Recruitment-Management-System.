@@ -24,7 +24,7 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Build with dotnet
-        run: RMS.API/RMS.API.csproj --configuration Release
+        run: dotnet build RMS.API/RMS.API.csproj --configuration Release
 
       - name: dotnet publish
         run: dotnet publish RMS.API/RMS.API.csproj -c Release -o "${{env.DOTNET_ROOT}}/myapp"
@@ -64,3 +64,4 @@ jobs:
           package: .
 
           
+
